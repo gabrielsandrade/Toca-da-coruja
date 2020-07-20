@@ -22,7 +22,7 @@ def handle(msg):
         bot.sendMessage(chat_id, f"🦉 Uuh uuh {msg['left_chat_participant']['first_name']} deixou o grupo :(")
 
 
-bot = telepot.Bot(common.token
+bot = telepot.Bot(common.token)
 print (bot.getMe())
 print (bot.getUpdates())
 
