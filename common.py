@@ -2,7 +2,6 @@ import os
 token = os.environ.get('TOKEN')
 
 mensagem = {'cronograma' : """
-🦉 Uuh uuh 
 CRONOGRAMA DE LEITURA:
 01/07 a 04/07 - Prólogo até Capítulo 6 (O incêndio) - 17%
 05/07 a 11/07 - Capítulo 1 (A queda) até Capítulo 8 (A queda) - 39%

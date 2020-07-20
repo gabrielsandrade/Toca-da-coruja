@@ -12,7 +12,7 @@ def handle(msg):
 
         elif "/livrodomes" in msg['text'].lower() :
             bot.sendPhoto(chat_id, common.mensagem['foto'])
-            bot.sendMessage(chat_id, f"Essa é a leitura do mês, acompanhe nosso cronograma.\n{common.mensagem['cronograma']}")
+            bot.sendMessage(chat_id, f"""🦉 Uuh uuh Essa é a leitura do mês, acompanhe nosso cronograma.\n{common.mensagem['cronograma']}""")
             
         print(msg)
         
@@ -27,10 +27,6 @@ print (bot.getMe())
 print (bot.getUpdates())
 
 MessageLoop(bot, handle).run_as_thread()
-
-def send_welcome(message):
-    bot.reply_to(message, u"Olá, bem-vindo ao bot!")
-
 
 while 1:
     time.sleep(10)
