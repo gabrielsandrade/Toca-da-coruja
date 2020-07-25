@@ -6,6 +6,10 @@ Bot do telegram criado para auxiliar o Grupo de leitura do entocados.
 
 ## Uso
 Para utilizar o bot e realizar modificações basta dar um fork nesse repositório e alterar o token e as mensagens de resposta no arquivo common.py.
+Após as modificação basta utilizar o comando :
+```
+python coruja.py
+```
 ## Funcionamento
 O bot detecta a entrada e saída de novos membros no grupo do Telegram e envia uma mensagem de boas vindas ou uma mensagem dizendo que está triste com a saída do membro.
 Além disso, a coruja responde a dois comandos :
