@@ -2,13 +2,18 @@ import os
 token = os.environ.get('TOKEN')
 
 mensagem = {'cronograma' : """
-CRONOGRAMA DE LEITURA:
-01/07 a 04/07 - Prólogo até Capítulo 6 (O incêndio) - 17%
-05/07 a 11/07 - Capítulo 1 (A queda) até Capítulo 8 (A queda) - 39%
-12/07 a 18/07 - Capítulo 1 (A luta) até Capítulo 16 (A luta) - 70%
-19/07 a 25/07 - Capítulo 1 (A tempestade) até o final - 100%""" ,
+CRONOGRAMA PESSOAS NORMAIS
+26/07 - 01/08: 24% Capítulo Três Meses Depois (Novembro de 2011)
+02/08 - 08/08: 50% Capítulo Quatro Meses Depois (Janeiro de 2013)
+09/08 - 15/08: 72% Capítulo Três Meses Depois (Março de 2014)
+16/08 - 22/08: 100% Até o final
+Dias de Discussão:
+02/08 às 18h
+09/08 às 18h
+16/08 às 18h
+23/08 às 18h""" ,
 
-'foto' : 'https://images-na.ssl-images-amazon.com/images/I/71OMUdACxVL.jpg',
+'foto' : 'https://images-na.ssl-images-amazon.com/images/I/71jrp43TCcL.jpg',
 
 'bem-vindo' : """bem-vindo(a) ao Grupo de Leituras dos Entocados. Em caso de spoilers, usar o bot @Hideitbot ou @spoilerobot para esconder a mensagem.
 Para acessar o cronograma e o livro do mês digite os comandos : /livrodomes ou /cronograma"""
